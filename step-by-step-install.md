@@ -139,7 +139,7 @@ wget -c --no-check-certificate https://raw.githubusercontent.com/master-coder-ll
               
             manager:
                 # 如果admin端不在本机需要修改
-                address:  http://127.0.0.1:9091
+                address:  http://服务器IP:9091
  
  我这里不需要注册用户，并且admin和proxy 都在本机 ，我只需要修改2个配置文件的`proxy.authPassword`为一个随机的字符串如`1234abc` 。并且管理员账号密码我也使用默认。
  
